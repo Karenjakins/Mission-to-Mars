@@ -16,7 +16,7 @@
       <div class="jumbotron text-center">
         <h1>Mission to Mars</h1>
         <!-- Add a button to activate scraping script -->
-        <p><a class="btn btn-primary btn-lg" href="{{url_for('scrape')}}" role="button">Scrape New Data</a></p>
+        <p><a class="btn btn-primary btn-sm" href="{{url_for('scrape')}}" role="button">Scrape New Data</a></p>
       </div>
       <!-- Add section for Mars News -->
       <div class="row" id="mars-news">
@@ -36,7 +36,7 @@
           <h2>Featured Mars Image</h2>
           <img
             src="{{mars.featured_image }}"
-            class="img-responsive"
+            class="img-circle"
             alt="Responsive image"
           />
         </div>
